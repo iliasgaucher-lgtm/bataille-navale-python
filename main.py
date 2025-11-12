@@ -6,9 +6,11 @@ from grille import Grille
 from bateau import PorteAvion, Croiseur, Torpilleur, SousMarin
 
 # --- Constantes du jeu ---
-LIGNES = 8
-COLONNES = 10
-BATEAUX_A_PLACER = [PorteAvion, Croiseur, Torpilleur, SousMarin]
+LIGNES = 4  # Modifié pour les tests
+COLONNES = 5 # Modifié pour les tests
+# On importe la classe Bateau de base (longueur 1) et Torpilleur (longueur 2)
+from bateau import Bateau, Torpilleur 
+BATEAUX_A_PLACER = [Bateau, Bateau, Torpilleur] # 2 bateaux de 1 case, 1 de 2 cases
 SYMBOLE_TOUCHE_BATEAU = "💣"
 
 def placer_bateaux_aleatoirement(grille, liste_classes_bateaux):
