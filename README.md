@@ -1,22 +1,13 @@
-# 🚢 Projet Bataille Navale
-
-Un jeu de bataille navale simple en ligne de commande, développé en Python dans le cadre d'un projet d'étude.
-
----
-## Prérequis
-
-* Python 3.x
-* Git
+# Projet Bataille Navale 
+Un jeu de bataille navale en ligne de commande, développé en Python avec une approche Orientée Objet.
 
 ---
 ## Installation
 
-Suivez ces étapes pour préparer le projet sur votre machine.
-
-1.  **Clonez ce dépôt** :
+1.  **Clonez ce dépôt** et entrez dans le dossier :
     ```bash
-    git clone <URL_DE_VOTRE_REPO_GITHUB>
-    cd <NOM_DU_DOSSIER_DU_PROJET>
+    git clone [https://github.com/iliasgaucher-lgtm/bataille-navale-python.git](https://github.com/iliasgaucher-lgtm/bataille-navale-python.git)
+    cd bataille-navale-python
     ```
 
 2.  **Créez et activez un environnement virtuel** :
@@ -40,16 +31,6 @@ Suivez ces étapes pour préparer le projet sur votre machine.
 ---
 ## Lancement du Jeu
 
-Pour démarrer une partie, exécutez la commande suivante depuis le dossier du projet :
+Pour démarrer une partie, exécutez le script `main.py` :
 ```bash
-python bataille_navale.py
-```
-
-
----
-## Lancement des Tests
-
-Pour vérifier que le code fonctionne correctement, vous pouvez lancer les tests unitaires avec `pytest` :
-```bash
-pytest
-```
+py main.py
